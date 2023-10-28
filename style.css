@@ -1,0 +1,41 @@
+body,
+article {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column-reverse;
+}
+
+article {
+  width: 16.4rem;
+}
+
+body,
+.button-container,
+article {
+  display: flex;
+  gap: 2px;
+}
+
+.button-container {
+  flex-wrap: wrap;
+}
+
+button,
+#container-div {
+  width: 4rem;
+  height: 4rem;
+  font-size: 2rem;
+}
+
+#container-div {
+  width: 90%;
+  border: 1px #535050 solid;
+  border-radius: 6px;
+  background-color: #e7e2e2;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  color: black;
+  padding-right: 1rem;
+}
